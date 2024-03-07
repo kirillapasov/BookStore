@@ -2,7 +2,7 @@ body {
     margin: 0 0 0 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5; 
+    background-color: rgb(238, 234, 234); 
 }
 
 header{
@@ -12,11 +12,11 @@ header{
     text-align: center;
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
-    color: #c7885b;
+    color: #d3af96;
     border-radius: 15px;
-    grid-template-columns: repeat(auto-fill, 225px);
-    -webkit-text-stroke: 1px rgb(22, 16, 16);
-    text-shadow: 3px 1px 5px rgb(0, 0, 0);
+    
+    
+    text-shadow: 2px 1px 5px rgb(0, 0, 0);
     border-radius: 30px;
     height: 100%; 
     
