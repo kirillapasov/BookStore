@@ -138,12 +138,14 @@ header .booksstore:hover{
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Bradley Hand, cursive';
+    color: #000000;
+    font-size: 20px;
 }
 
 #menu-block label {
     display: block;
     margin-bottom: 10px;
-    
 }
 
 #menu-block select, #menu-block input[type="checkbox"], #menu-block input[type="radio"], #menu-block input[list] {
@@ -153,10 +155,11 @@ header .booksstore:hover{
     border: 1px solid #000000;
     border-radius: 30px;
     box-sizing: border-box;
+    
 }
 
 #menu-block input[type="checkbox"], #menu-block input[type="radio"] {
-    width: auto;
+width: auto;
 }
 
 .ad-container {
