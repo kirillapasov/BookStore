@@ -199,6 +199,45 @@ width: auto;
 
 
 }
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.review {
+    flex-basis: calc(33.33% - 20px);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.review h3 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.review p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+
+@media screen and (max-width: 768px) {
+    .review {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .review {
+        flex-basis: calc(100% - 20px);
+    }
+}
 
 .footer {
     background-color: #333; 
