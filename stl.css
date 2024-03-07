@@ -55,6 +55,23 @@ header .booksstore:hover{
     border-radius: 45px;
     animation: slideBackground 10s linear infinite alternate;
 }
+#shp{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    color: #242322;
+    border-radius: 15px;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-color: currentcolor;
+    text-decoration-thickness: auto;
+    border-radius: 30px;
+    height: 50px;
+    font-size: 36px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
 
 @keyframes slideBackground {
     0% {
