@@ -201,27 +201,32 @@ width: auto;
 }
 .reviews {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    overflow-x: auto; 
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory; 
+    white-space: nowrap; 
+    
 }
 
 .review {
-    flex-basis: calc(33.33% - 20px);
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 0 0 auto; 
+    margin-right: 20px;
+    border-radius: 15px;
+    background-color: #f7f0cf; 
     padding: 20px;
-    margin-bottom: 20px;
+    margin-right: 20px;
+   border: 2px solid #ffffff;
+   
 }
 
 .review h3 {
-    color: #333;
+    color: #ce3737;
     font-size: 1.2em;
     margin-bottom: 10px;
 }
 
 .review p {
-    color: #555;
+    color: #000000;
     font-size: 1em;
     line-height: 1.5;
 }
@@ -322,7 +327,6 @@ width: auto;
     }
     header .item{
     
-    
         
     }
     header .booksstore{
@@ -343,4 +347,7 @@ width: auto;
         align-items: center;
         grid-template-columns: auto;
     }
+}
+@media screen and (max-width: 440px) {
+    
 }
