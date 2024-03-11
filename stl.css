@@ -35,7 +35,7 @@ header .booksstore:hover{
     border-radius: 15px;
     
 }
-
+  
 #shop-wrapper tr td#shop-menu {
     width: 292px;
     vertical-align: top;
@@ -44,6 +44,33 @@ header .booksstore:hover{
 #shop-wrapper tr td#shop-content {
     width: 292;
     vertical-align: top;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #f8f9fa;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #ddd;
 }
 
 #adv {
