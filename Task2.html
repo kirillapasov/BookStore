@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <body>
+        <script>
+
+            let userInput1 = prompt("Введите строку:");
+            if (userInput1.includes("срочно") ||  userInput1.includes("безотлагательно") ||  userInput1.includes("деньги")) {
+                console.log("Данное сообщение подозрительно");
+            }
+
+
+            let userInput2 = prompt("Введите строку:");
+            if (userInput2.length > 20) {
+                console.log(userInput2.slice(0, 20) + "...");
+            }
+            else{
+                console.log(userInput2)
+            }
+
+            const adminName = "admin";
+            let userName = prompt("Введите свое имя:");
+            if (userName === adminName) {
+                console.log("Доступ разрешен");
+            } else {
+                console.log("Доступ ограничен");
+            }
+        </script>
+  
+    </body>
+</html> 

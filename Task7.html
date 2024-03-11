@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <body>
+        <script>
+        let userInput = prompt("Введите имена через запятую:");
+        let namesArray = userInput.split(",");
+        for (let i = 0; i < namesArray.length; i++) {
+            if (namesArray[i].trim() === "Алёна") {
+                namesArray[i] = "Елена";
+            }
+        }
+        
+        namesArray.splice(1, 0, "Антон", "Евгений");
+
+        console.log(namesArray);
+           
+        </script>
+  
+    </body>
+</html> 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <body>
+        <script>
+        let products = ["Бумага", "Ручка", "Карандаш", "Маркер"];
+        let prices = [120.5, 14, 10, 85.2];
+        let totalCost = 0;
+
+        for (let i = 0; i < products.length; i++) {
+            let quantity;
+            do {
+                let input = prompt(`Укажите количество товара "${products[i]}" (цена ${prices[i]} рублей):`);
+                quantity = parseFloat(input);
+                if (isNaN(quantity)) {
+                    console.log(`Пожалуйста, введите число для товара "${products[i]}".`);
+                }
+            } while (isNaN(quantity));
+            
+            totalCost += quantity * prices[i];
+        }
+
+        let shippingCost;
+        if (totalCost >= 1000) {
+            shippingCost = 0;
+        } else if (totalCost >= 500) {
+            shippingCost = 100;
+        } else {
+            shippingCost = 200;
+        }
+
+        totalCost += shippingCost;
+
+        console.log(`Общая сумма заказа: ${totalCost} рублей (включая доставку ${shippingCost} рублей).`);
+      
+           
+        </script>
+  
+    </body>
+</html> 
