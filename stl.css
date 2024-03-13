@@ -13,24 +13,28 @@ header{
     font-family: 'Times New Roman', Times, serif;
     color: #d3af96;
     border-radius: 15px;
-
     text-shadow: 2px 1px 5px rgb(0, 0, 0);
     border-radius: 30px;
     height: 100%; 
-    
     z-index: 10;
     font-size: 90px;
     margin-left: auto;
     margin-right: auto;
     width: 6em;
-}
-header .cart{
-   padding-left: 5px;
-    width: 20%;
-    height: 20%;
-    z-index: 9999; 
-  
 
+}
+
+header .cart{ 
+   padding-left: 5px;
+    width: 10%;
+    height: 10%;
+    z-index: 9999; 
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: right;
+    align-self: flex-start;
+    
 }
 header .cart img{
 
