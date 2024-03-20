@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <body>
+        <script>
+            let person1 = {
+                firstName: "Иван",
+                lastName: "Иванов"
+            };
+            function Person2(firstName, lastName) {
+                this.firstName = firstName;
+                this.lastName = lastName;
+            }
+            let person2 = new Person2("Петр", "Петров");
+
+            function print(obj) {
+                console.log("Имя:", obj.firstName);
+                console.log("Фамилия:", obj.lastName);
+            }
+            print(person1);
+            print(personConstructor);
+
+        </script>
+  
+    </body>
+</html> 
